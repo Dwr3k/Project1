@@ -1,0 +1,23 @@
+
+public class Song extends DigitalMedia
+{
+	private String artist;
+	private String album;
+	
+	public Song(String heck, long hecks)
+	{
+		super(heck, hecks);
+	}
+	
+	public Song(String heck, long hecks, String nani, String what)
+	{
+		super(heck, hecks);
+		artist = nani;
+		album = what;
+	}
+	
+	public String getTitle()
+	{
+		return name;
+	}
+}

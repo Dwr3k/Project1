@@ -1,0 +1,8 @@
+
+public class DigitalMedia 
+{
+	private String name = "nani";
+	private long size = 0;
+	
+	
+}
